@@ -90,7 +90,6 @@ h2 {
 .h2tit {
     text-align: center;
     color: #FFFFFF;
-    text-decoration: underline;
     margin-top: 150px;
 }
 
@@ -364,6 +363,10 @@ footer a:hover {
         flex-direction: column;
     }
 
+    .about-container img {
+        margin-right: 0;
+    }
+
     .about-logo {
         margin-bottom: 20px;
     }
@@ -377,6 +380,18 @@ footer a:hover {
 @media (max-width: 768px) {
     h1 {
         font-size: 3em;
+    }
+
+    .about-container img {
+        margin-right: 0;
+    }
+
+    .h2tit {
+        margin-top: 250px;
+    }
+
+    #projects {
+        height: auto;
     }
 
     #technologies {
@@ -401,20 +416,13 @@ footer a:hover {
         font-size: 2em;
     }
 
-    /* .social-buttons {
-        gap: 5px;
+    .about-container img {
+        margin-right: 0;
     }
-
-    .social-button {
-        width: 30px;
-        height: 30px;
-        font-size: 0.8em;
-    } 
-
-    a#cv-button {
-        font-size: 0.7em;
-        padding: 5px 10px;
-    }*/
+    
+    .h2tit {
+        margin-top: 250px;
+    }
 
     .technology {
         flex: 0 1 calc(100% - 20px);
