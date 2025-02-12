@@ -370,11 +370,6 @@ footer a:hover {
     .about-logo {
         margin-bottom: 20px;
     }
-
-    .technology {
-        flex: 0 1 calc(33.33% - 20px);
-        max-width: calc(33.33% - 20px);
-    }
 }
 
 @media (max-width: 768px) {
@@ -400,11 +395,6 @@ footer a:hover {
         justify-content: center;
     }
 
-    .technology {
-        flex: 0 1 calc(50% - 20px);
-        max-width: calc(50% - 20px);
-    }
-
     .technology img {
         width: 25px;
         height: 25px;
@@ -419,14 +409,9 @@ footer a:hover {
     .about-container img {
         margin-right: 0;
     }
-    
+
     .h2tit {
         margin-top: 250px;
-    }
-
-    .technology {
-        flex: 0 1 calc(100% - 20px);
-        max-width: calc(100% - 20px);
     }
 
     .technology img {
